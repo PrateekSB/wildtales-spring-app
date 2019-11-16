@@ -12,5 +12,5 @@ import java.util.List;
 @NoArgsConstructor
 public class TaleDTO {
     private String author;
-    private List<Chapter> chapterList;
+    private List<Chapter> chapters;
 }
