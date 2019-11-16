@@ -18,4 +18,5 @@ public class Tale {
     private String _id; // NOSONAR
     private String author;
     private List<Chapter> chapters;
+    private List<String> tags;
 }

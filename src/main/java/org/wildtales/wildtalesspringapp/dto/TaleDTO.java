@@ -11,6 +11,8 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 public class TaleDTO {
+    private String _id;
     private String author;
     private List<Chapter> chapters;
+    private List<String> tags;
 }
