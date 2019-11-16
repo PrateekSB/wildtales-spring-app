@@ -12,7 +12,6 @@ import org.springframework.test.web.servlet.MockMvc;
 import org.wildtales.wildtalesspringapp.service.FileService;
 import static org.mockito.BDDMockito.then;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.fileUpload;
-import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.header;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
 @RunWith(SpringRunner.class)
