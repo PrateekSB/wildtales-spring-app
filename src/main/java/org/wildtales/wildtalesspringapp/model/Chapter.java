@@ -4,7 +4,6 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.time.Instant;
 import java.util.List;
 
 @Data
@@ -12,9 +11,8 @@ import java.util.List;
 @NoArgsConstructor
 public class Chapter {
     private String title;
-    private Instant timeline;
     private int order;
     private String story;
     private List<String> imageUrls;
     private List<String> videoUrls;
- }
+}

@@ -3,3 +3,13 @@ spring:
     mongodb:
       uri: mongodb+srv://vienna_001:U65zzmUeutDP2zF@zoockathon0-e3coy.gcp.mongodb.net/test?retryWrites=true&w=majority
       database: wildtales
+  servlet:
+    multipart:
+      file-size-threshold: 25MB
+      max-request-size: 25MB
+      max-file-size: 25MB
+
+cloudinary:
+  cloud-name: dnfs1zgww
+  api-key: 875783843122147
+  api-secret: ZDfxRrED4zMv1NdqlmIBHfmVlio
