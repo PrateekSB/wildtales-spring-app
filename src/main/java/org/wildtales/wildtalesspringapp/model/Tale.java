@@ -6,6 +6,8 @@ import lombok.NoArgsConstructor;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
+import java.util.List;
+
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
@@ -13,6 +15,6 @@ import org.springframework.data.mongodb.core.mapping.Document;
 public class Tale {
     @Id
     private String _id; // NOSONAR
-    private String description;
-    private String summary;
+    private String author;
+    private List<Chapter> chapterList;
 }
