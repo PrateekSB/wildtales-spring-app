@@ -1,0 +1,5 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://vienna_001:U65zzmUeutDP2zF@zoockathon0-e3coy.gcp.mongodb.net/test?retryWrites=true&w=majority
+      database: wildtales
